@@ -1,0 +1,16 @@
+{
+  "name": "shopify-product-fetcher",
+  "version": "1.0.0",
+  "description": "A Node.js script to fetch Shopify product variants sorted by price using GraphQL APIs.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js --name hat"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "@shopify/shopify-api": "^7.2.0"
+  },
+  "type": "module"
+}
